@@ -7,7 +7,7 @@ function Adopt() {
     return (
         
         <div className="wrapper">
-            <h1 style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh', color: 'grey' }}>
+            <h1 className="pagetitle" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh', color: 'red' }}>
                 Adopt page</h1>
             <Dogs />
            

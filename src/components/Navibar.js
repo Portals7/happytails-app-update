@@ -4,7 +4,9 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import { Navbar, Nav, } from 'react-bootstrap'
+import { Navbar, Nav, } from 'react-bootstrap';
+import logo from './images/logo_happytails.png';
+import "../../src/App.css";
 
 
 class BootstrapNavbar extends React.Component {
@@ -15,6 +17,9 @@ render() {
           <div className="col-md-12">
             <Router>
               <Navbar bg="light" variant="light" expand="lg" sticky="top">
+              <a class="navbar-brand" href="index.html">
+                <img src={logo} alt="logohp" className="logoclass"/>
+              </a>
                 <Navbar.Brand className="test" href="/"><b>Happytails</b></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

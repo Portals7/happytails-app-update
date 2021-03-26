@@ -1,5 +1,6 @@
 import {React, useEffect, useState} from "react";
 import "./App.css";
+import "./index.css";
 import { stockData } from "./data";
 import {Button, Alert, Breadcrumb, Card, Container, Row, Col, CardColumns} from 'react-bootstrap';
 
@@ -18,13 +19,13 @@ export const Dogs = () => {
                     <div className="dog-preview" key={dog.id}>
                                                           
                           <Card >
-                            <Card.Img variant="top" src="../components/images/foto_1.jpg" />
+                            <Card.Img variant="top" className="dogCard" src={dog.image} />
                             
                             <Card.Body>
                               <Card.Title className="Naam mb-0 text-danger font-weight-bold" >{dog.name}</Card.Title>
                               <Card.Text className="Ras text-dark font-weight-bold"> {dog.animal} </Card.Text>
                               <Card.Text className="Geslacht text-dark Leeftijd"> {dog.gender} - {dog.age} jaar </Card.Text>
-                                 
+                              <p><button class="button" href="/">Contact</button></p>
                             </Card.Body>
                               <Card.Footer className="Plaats" variant="danger" style={{textAlign:'center',}}> {dog.location} </Card.Footer>                    
                           </Card>

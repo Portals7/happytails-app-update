@@ -1,5 +1,11 @@
+import foto1 from "./components/images/foto_1.jpg";
+import foto2 from "./components/images/foto_2.jpg";
+import foto3 from "./components/images/foto_3.jpg";
+
+
 export const stockData = [
     {
+      image: foto1,
       name: "Puggy",
       animal: "hond",
       gender: "reu",
@@ -8,7 +14,8 @@ export const stockData = [
       id:1,
     },
     {
-        name: "blacly",
+        image: foto2,
+        name: "Blacly",
         animal: "hond",
         gender: "reu",
         age: 15,
@@ -16,6 +23,7 @@ export const stockData = [
         id:2,
     },
     {
+        image: foto3,
         name: "Evert",
         animal: "poes",
         gender: "teef",
