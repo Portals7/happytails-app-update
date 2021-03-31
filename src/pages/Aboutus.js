@@ -22,7 +22,7 @@ function Aboutus() {
     <a href=""><i class="fa fa-paper-plane"></i></a>
     <AboutContainer>
         <AboutWrapper>
-        <h1>Let's give this some content</h1>
+        
             <ServicesCard>
                     <ServicesH1>
                     <h1>Let's give this some content</h1>

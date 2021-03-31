@@ -19,7 +19,7 @@ background: #e5e5e5;
 
 
 export const AboutWrapper = styled.div`
-max-width: 1000px;
+max-width: 1500px;
 
 margin: 0 auto;
 display: grid;

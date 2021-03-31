@@ -11,6 +11,7 @@ import Blog from './pages/Blog';
 import Navbar from './components/Navibar';
 import Aboutus from './pages/Aboutus';
 import Contact, { MyForm } from './pages/Contact';
+import Footer from '../src/components/Footer'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path='/blog' component={Blog} />
         <Route path='/aboutus' component={Aboutus} />
         <Route path='/contact' component={Contact} />
+        <Footer />
       </Router>
     
     
