@@ -1,6 +1,6 @@
 import React from 'react'
-import photo from '../components/images/logo_happytails.png'
-import { Dogs, HomePageHeader } from "../dogs"
+
+import { Dogs } from "../dogs"
 
 
 function Adopt() {

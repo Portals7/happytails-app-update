@@ -1,8 +1,8 @@
-import {React, useEffect, useState} from "react";
+import React from "react";
 import "./App.css";
 import "./index.css";
 import { stockData } from "./data";
-import {Button, Alert, Breadcrumb, Card, Container, Row, Col, CardColumns} from 'react-bootstrap';
+import {Card, CardColumns} from 'react-bootstrap';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -41,7 +41,7 @@ export const Dogs = () => {
 
 export default Dogs;
 
-{/* <Card classname="mb3" style={{color: "#000"}}>
+/* <Card classname="mb3" style={{color: "#000"}}>
 <Card.Img src="https://picsum.photos/id/1025/200/300" />
 <Card.Body>
   <Card.Title> 
@@ -50,4 +50,4 @@ export default Dogs;
   <Card.Text>
   </Card.Text>
   <Button variant="danger">Adopteer mij!</Button>
-</Card.Body> */}
+</Card.Body> */

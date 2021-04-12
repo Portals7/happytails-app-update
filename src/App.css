@@ -80,11 +80,7 @@
     margin-bottom: 20px;
   }
 
-  .dogs{
- 
-
-
-  }
+  
 
   .background{
     
@@ -103,3 +99,12 @@ background-attachment: fixed;
     margin-bottom: 0px;
     background-color:#aa3333;
   }
+  table {
+    border: 1px solid #CCC;
+    border-collapse: collapse;
+}
+
+td {
+    border: none;
+}
+  

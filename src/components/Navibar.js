@@ -17,7 +17,7 @@ render() {
           <div className="col-md-12">
             <Router>
               <Navbar bg="light" variant="light" expand="lg" sticky="top">
-              <a class="navbar-brand" href="index.html">
+              <a class="navbar-brand" href="/">
                 <img src={logo} alt="logohp" className="logoclass"/>
               </a>
                 <Navbar.Brand className="test" href="/"><b>Happytails</b></Navbar.Brand>

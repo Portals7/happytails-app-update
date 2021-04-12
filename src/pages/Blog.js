@@ -1,21 +1,31 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "../App.css";
+import {BlogContainer, BlogWrapper, BlogTitle, FirstBlog, ImageHolder, BlogText, BlogSmalltext} from './BlogElements'
 /* import { Link, Route } from 'react-router-dom' */
 
 
 
 function Blog() {
     return (
-        
-        <div className="wrapper">
-            <h1 className="pagetitle">
-               Blog page</h1>
+        <>
+        <BlogContainer>
+            <BlogWrapper>
+                <BlogTitle>Blog page</BlogTitle>
+                <FirstBlog>
+                    <table><tbody>
+                    <ImageHolder /></tbody>
+                    <tbody>
+                    <BlogText>Sponsored by Happy Dog</BlogText>
+                    <BlogSmalltext>Happy day because 'happy dog' food sponsors this website! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero leo, pellentesque ornare, adipiscing vitae, rhoncus commodo, nulla. Fusce quis ipsum. </BlogSmalltext>
+                    </tbody>
+                    </table>
 
-              
-               <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-            
-           
-            </div>
+                </FirstBlog>
+                end of Blogs
+                
+            </BlogWrapper>
+        </BlogContainer>
+        </>
     )
 }
 export default Blog;

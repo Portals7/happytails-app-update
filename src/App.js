@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import {
   BrowserRouter as Router,
   Route,
@@ -10,7 +10,7 @@ import Adopt from './pages/Adopt';
 import Blog from './pages/Blog';
 import Navbar from './components/Navibar';
 import Aboutus from './pages/Aboutus';
-import Contact, { MyForm } from './pages/Contact';
+import Contact from './pages/Contact';
 import Footer from '../src/components/Footer'
 
 

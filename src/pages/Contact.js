@@ -1,15 +1,13 @@
 import React from 'react'
 import {Form,Button} from 'react-bootstrap';
-import Container from 'react-bootstrap';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+
 import {ContactContainer, ContactWrapper,FormContainer,ImageHolder,TextHolder} from '../pages/ContactElements';
 
 
 function Contact() {
     return (
     <div className="wrapper">
-      <h1 style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh', color: 'grey' }}>
+      <h1 style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh', color: 'red' }}>
                 Contact</h1>
                 
       <ContactContainer>
